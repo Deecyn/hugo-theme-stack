@@ -18,7 +18,7 @@
 
     --sidebar-avatar-size: 100px;
     --sidebar-element-separation: 20px;
-    --emoji-size: 40px;
+    --emoji-size: 30px;
     --emoji-font-size: 20px;
 
     @include respond(md) {
@@ -31,7 +31,7 @@
     @include respond(2xl) {
         --sidebar-avatar-size: 120px;
         --sidebar-element-separation: 25px;
-        --emoji-size: 40px;
+        --emoji-size: 30px;
     }
 
     &.sticky {
@@ -40,7 +40,7 @@
 
     &.compact {
         --sidebar-avatar-size: 80px;
-        --emoji-size: 30px;
+        --emoji-size: 20px;
         --emoji-font-size: 15px;
 
         header {
